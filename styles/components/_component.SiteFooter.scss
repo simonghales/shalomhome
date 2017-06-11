@@ -1,0 +1,16 @@
+.SiteFooter
+{
+  @include tinyText;
+  margin-top: 200px;
+  color:          #c0c0c0;
+  padding-bottom: 10px;
+  text-align:     center;
+
+  a
+  {
+    @include underlineLink;
+    display: inline-block;
+    margin:  0 15px;
+  }
+
+}

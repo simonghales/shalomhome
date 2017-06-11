@@ -1,0 +1,27 @@
+$baseWidth: 1280px;
+
+@mixin columnsWidth($columns:6) {
+  $percentage: $columns / 6;
+  width: $baseWidth * $percentage;
+}
+
+@mixin centeredColumnsWidth($columns:6) {
+  @include columnsWidth($columns);
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+%clearfix
+{
+  &:after
+  {
+    content: "";
+    display: table;
+    clear:   both;
+  }
+}
+
+@mixin clearfix
+{
+  @extend %clearfix;
+}

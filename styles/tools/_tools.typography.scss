@@ -1,0 +1,50 @@
+@mixin bodyText
+{
+  font-size:   18px;
+  line-height: 24px;
+}
+
+@mixin tinyText
+{
+  font-size: 13px;
+  line-height: 18px;
+}
+
+// Headings
+
+// h2
+@mixin hugeHeading
+{
+
+}
+
+// h3
+@mixin largeHeading
+{
+
+}
+
+// h4
+@mixin mediumHeading
+{
+  font-size: 24px;
+  line-height: 28px;
+}
+
+// h5
+@mixin smallHeading
+{
+
+}
+
+// END Headings
+
+@mixin underlineLink
+{
+
+  &:hover
+  {
+    text-decoration: underline;
+  }
+
+}

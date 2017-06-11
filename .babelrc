@@ -1,0 +1,24 @@
+{
+    "plugins": [
+        [
+            "module-resolver", {
+            "root": ["."],
+            "alias": {
+                "styles": "./styles"
+            },
+            "cwd": "babelrc"
+        }],
+        [
+            "wrap-in-js",
+            {
+                "extensions": ["css$", "scss$"]
+            }
+        ],
+        "transform-flow-strip-types",
+        ["transform-define", "./env-config.js"]
+    ],
+    "presets": [
+        "next/babel"
+    ],
+    "ignore": []
+}

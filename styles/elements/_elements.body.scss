@@ -1,0 +1,22 @@
+*
+{
+  box-sizing: border-box;
+}
+
+body
+{
+  @include bodyText;
+  background-color: #FFFFFF;
+  color:            $color__body;
+  font-family:      Helvetica, Arial, sans-serif;
+}
+
+a
+{
+
+  &:focus
+  {
+    outline: none;
+  }
+
+}
