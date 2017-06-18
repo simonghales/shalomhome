@@ -1,0 +1,16 @@
+.LargePreviewsWrapper
+{
+  @include largeVerticalSpacing;
+}
+
+.LargePreviewsWrapper__header
+{
+  @include centeredColumnsWidth;
+  margin-bottom: 30px;
+}
+
+.LargePreviewsWrapper__header__title
+{
+  @include largeHeading;
+  font-weight: 400;
+}

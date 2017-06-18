@@ -1,0 +1,26 @@
+.FancyLink
+{
+  display:        inline-block;
+  font-size:      14px;
+  font-weight:    700;
+  border:         2px solid #FFFFFF;
+  padding:        5px 14px;
+  transition:     background 250ms ease, box-shadow 250ms ease, transform 250ms ease, text-shadow 250ms ease;
+  position:       relative;
+  letter-spacing: 1px;
+  text-shadow:    0 2px rgba(0, 0, 0, 0.1);
+
+  &:hover
+  {
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow:       0 4px 0 -2px rgba(0, 0, 0, 0.1);
+    text-shadow:      0 2px rgba(0, 0, 0, 0.2);
+  }
+
+  &:active
+  {
+    background-color: rgba(0, 0, 0, 0.15);
+    box-shadow:       0 4px 0 -2px rgba(0, 0, 0, 0.2);
+    transform:        translateY(2px);
+  }
+}

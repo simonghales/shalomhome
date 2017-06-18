@@ -1,0 +1,32 @@
+.LargePreview
+{
+}
+
+.LargePreview__content
+{
+  padding: 80px 40px 40px 40px;
+  color:   #FFFFFF;
+
+  .LargePreviews__preview:first-child &
+  {
+    padding-left: 0;
+  }
+
+}
+
+.LargePreview__title
+{
+  @include largeHeading;
+  margin-bottom:  6px;
+  text-transform: uppercase;
+}
+
+.LargePreview__subtitle
+{
+  @include mediumHeading;
+}
+
+.LargePreview__link
+{
+  margin-top: 20px;
+}

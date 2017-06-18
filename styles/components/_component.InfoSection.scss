@@ -1,6 +1,6 @@
 .InfoSection
 {
-  margin: 200px 0;
+  @include largeVerticalSpacing;
 }
 
 .InfoSection__title
@@ -12,6 +12,6 @@
 
 .InfoSection__content
 {
-  @include centeredColumnsWidth(4);
+  @include centeredColumnsWidth(8);
   margin-top:      50px;
 }

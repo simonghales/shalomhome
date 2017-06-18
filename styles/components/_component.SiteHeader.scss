@@ -3,6 +3,8 @@
   background-color: #FFFFFF;
   height:           72px;
   box-shadow:       0 1px 10px rgba(0, 0, 0, 0.05);
+  position:         relative;
+  z-index:          10;
 }
 
 .SiteHeader__content
